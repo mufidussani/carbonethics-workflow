@@ -89,9 +89,9 @@ export default function RequestForm({ onRequestAdded }) {
           </select>
           <button
             onClick={() => setIsAddingClient(true)}
-            className="text-blue-500 underline mb-4"
+            className="text-white mb-4 bg-blue-500 p-2 rounded"
           >
-            + Add Client
+            Add Client
           </button>
         </div>
       ) : (
